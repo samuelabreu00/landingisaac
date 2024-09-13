@@ -1,12 +1,12 @@
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { CUSTOM_ELEMENTS_SCHEMA, Component, HostListener, Inject, PLATFORM_ID } from '@angular/core';
 import { LucideAngularModule } from 'lucide-angular';
-import { TruncatePipe } from '../../pipes/truncate.pipe';
+
 
 @Component({
   selector: 'app-recomendacoes',
   standalone: true,
-  imports: [CommonModule, LucideAngularModule, TruncatePipe],
+  imports: [CommonModule, LucideAngularModule],
   templateUrl: './recomendacoes.component.html',
   styleUrl: './recomendacoes.component.scss',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
@@ -32,40 +32,28 @@ export class RecomendacoesComponent {
 
   listPropostas = [
     {
-      title: 'SAÚDE ITINERANTE',
-      description: 'O projeto proporcionará consultas em casa com equipes de profissionais multidisciplinares, para atender demandas em comunidades que não têm postos de saúde. ',
+      title: 'ACESSIBILIDADE',
+      description: 'Nossa gestão tem como compromisso apoiar as famílias de pessoas com deficiência (PCDs), autismo, e outros transtornos, implementando acessibilidade, com a construção de calçadas acesíveis com rampas em prédios públicos e a adtação de transporte público.',
     },
     {
-      title: 'MUTIRÃO DA SAÚDE',
-      description: 'Serão realizados mutirões de atendimento especializado e cirurgias, com base no Programa Nacional de Redução de Cirurgias Eletivas, além de um mutirão de consultas com neurologistas e psiquiatras.',
+      title: 'SAÚDE',
+      description: 'Ampliação e reforma do hospital. Construção de uma nova UPA no distrito ideal para atender toda a região próxima. Garantir atendimento emergencial 24hrs e medicamentos. Atendimento especializado. Cadastro e entrega domiciliar de medicamentos.',
     },
     {
-      title: 'HOSPITAL DA MULHER',
-      description: 'Será implantado um hospital especializado com todos os serviços essenciais para a saúde da mulher, com equipamentos para realização de exames preventivos e de diagnóstico de imagens.',
+      title: 'AGRONOMIA E AGRICULTURA',
+      description: 'Incentivo ao desenvolvimento dos agricultores, com acesso a novas máquinas para melhorar a produtividade em atividades agrícolas. Fortalecer a entrega de sementes e mudas. Cadastro e aumento adequado de hora de trator de acordo com a necessidade de cada agricultor.',
     },
     {
-      title: 'CENTRO ESPECIALIZADO',
-      description: 'Atendimento e acompanhamento de pessoas com Transtorno do Espectro Autista (TEA) e outros transtornos de desenvolvimento.',
+      title: 'CULTURA, LAZER E ESPORTE',
+      description: 'Modernizar as quadras nas escolas e permitir seu uso comunitário nos finais de semana, em parceria com a Secretaria do Esporte. Incetivar a prática de diversas modalidades esportivas no Município. Promover espaços de lazer e prática de esportes para nosso povo.',
     },
     {
-      title: 'CRECHE NO MEU BAIRRO',
-      description: 'Com atividades de tempo integral, a Creche no Meu Bairro visa educação em tempo integral e cria condições para que mães possam se capacitar, trabalhar ou empreender, ajudando a sustentar suas famílias.',
+      title: 'INFRAESTRUTURA',
+      description: 'Assegurar o abastecimento de água potável para todas as localidades e distritos de Aracoiaba. Melhorar e reformar as estradas, garantindo mais segurança e mobilidade para os cidadãos. Oficinas industriais de confecção e produção têxtil. Desenvolver oportunidades de entretenimento e convivência em diversas localidades.',
     },
     {
-      title: 'BEM MORAR',
-      description: 'Será criado um programa que disponibilizará recursos para reformar residências de famílias de baixa renda.',
-    },
-    {
-      title: 'UNIVERSIDADE OPERÁRIA',
-      description: 'O projeto oferece uma bolsa de incentivo para capacitar e remunerar a população, permitindo que completem seus estudos em um horário e se especializem em áreas específicas no restante do tempo para atender às necessidades do município.',
-    },
-    {
-      title: 'POLO INDUSTRIAL DE CAUCAIA',
-      description: 'Será implantado um Centro de Desenvolvimento Econômico, de forma que empregos sejam gerados e a renda da população cresça.',
-    },
-    {
-      title: 'CISMEC',
-      description: 'Será criada a Central de Inteligência, Segurança e Monitoramento Estratégico de Caucaia, que utilizará tecnologia avançada para promover a colaboração entre forças de segurança e defesa social, visando controlar e reduzir a violência.',
+      title: 'EDUCAÇÃO',
+      description: 'Distribuição gratuita de fardamento completo, incluindo mochila, sapato e material escolar. Merenda escolar de qualidade, com alimentação nutritiva e variada. Valorização da categoria com garantia de um teto salarial justo e digno. Formação contínua e qualificação especializada para professores e auxiliares.',
     },
   ]
 

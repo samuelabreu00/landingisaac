@@ -12,7 +12,7 @@ import { RedirectButtonComponent } from '../../shared/components/redirect-button
 export class InicioComponent {
 
   coracaoIcon: string = '../../../assets/coracao-icone.png'
-  criancasImg: string = '../../../assets/images/foto4.jpg'
+  criancasImg: string = '../../../assets/images/isaacinit.png'
 
 
 }

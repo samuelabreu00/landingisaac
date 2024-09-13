@@ -21,7 +21,7 @@
         border-radius: 30px;
         // background-color: #fffef9;
         box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-        border: 2px solid $primary-color;
+        border: 2px solid $try-color;
         padding: 36px;
         height: 300px;
         .proposta {
@@ -37,7 +37,7 @@
               .number {
                 width: 40px;
                 height: 40px;
-                border: 2px solid $primary-color;
+                border: 2px solid $try-color;
                 border-radius: 50%;
                 display: flex;
                 justify-content: center;
@@ -49,7 +49,7 @@
               font-size: 1rem;
               font-family: 'Roboto', sans-serif;
               width: fit-content;
-              background-color: $primary-color;
+              background-color: $try-color;
               color: #fff;
               font-weight: 600;
               border-radius: 15px;
@@ -71,15 +71,15 @@
       }
     }
     swiper-container::part(bullet) {
-      background-color: ligthen($primary-color, 50%);
+      background-color: ligthen($try-color, 50%);
 
     }
     swiper-container::part(bullet-active) {
-      background-color: $primary-color;
+      background-color: $try-color;
     }
     swiper-container::part(button-prev),
     swiper-container::part(button-next) {
-      color: $primary-color;
+      color: $try-color;
     }
   }
 }

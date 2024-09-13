@@ -14,7 +14,7 @@ export class HeaderComponent implements AfterViewInit {
   @ViewChild('toggleBtn') toggleBtn!: ElementRef;
   @ViewChild('toggleBtnIcon') toggleBtnIcon!: ElementRef;
   @ViewChild('dropdownMenu') dropdownMenu!: ElementRef;
-  urlMainLogo: string = '../../../assets/logo/emillia-horizontal.png';
+  urlMainLogo: string = '../../../assets/logo/logoisac.png';
   iconMenu: string = '../../../assets/menu-icon.svg';
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}

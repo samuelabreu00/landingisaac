@@ -49,12 +49,13 @@ header {
 a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
     transition: .2s;
+    font-size: 1.2rem;
 }
 
 a:hover {
-    color: $secondary-color;
+    color: $try-color;
 }
 
 .container-header {
@@ -89,10 +90,7 @@ a:hover {
         nav{
             display: flex;
             gap: 3rem;
-            a {
-                font-size: 1.2rem;
-                font-weight: 500;
-            }
+          
         }
 
         .toggle-btn {
